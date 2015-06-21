@@ -93,15 +93,15 @@ class SignalView: UIView {
         UIColor.blackColor().set()
         wave0.stroke()
         
-        let wave1 = drawWavePath(3 * unitLength, radiusOuter: 2 * unitLength)
+        let wave1 = drawWavePath(3 * unitLength, radiusOuter: 5 * unitLength)
         UIColor.blackColor().set()
         wave1.stroke()
 
-        let wave2 = drawWavePath(7 * unitLength, radiusOuter: 2 * unitLength)
+        let wave2 = drawWavePath(7 * unitLength, radiusOuter: 9 * unitLength)
         UIColor.blackColor().set()
         wave2.stroke()
         
-        let wave3 = drawWavePath(11 * unitLength, radiusOuter: 2 * unitLength)
+        let wave3 = drawWavePath(11 * unitLength, radiusOuter: 13 * unitLength)
         UIColor.blackColor().set()
         wave3.stroke()
         
