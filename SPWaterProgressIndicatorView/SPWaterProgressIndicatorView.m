@@ -237,7 +237,7 @@ static const CGFloat kDefaultMinimumFontSize    = 12.f;
 {
     CAShapeLayer *layer = (CAShapeLayer *)self.layer.mask;
     if ([[UIBezierPath bezierPathWithCGPath:layer.path] containsPoint:point]){
-        return self;
+        return [super hitTest:point withEvent:event];
     }
     return nil;
 }
