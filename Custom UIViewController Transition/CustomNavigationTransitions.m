@@ -21,8 +21,8 @@
 
     UIViewController *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     UIViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
-    UIView *fromView = fromVC.view;
-    UIView *toView = toVC.view;
+    UIView *fromView = [transitionContext viewForKey:UITransitionContextFromViewKey];
+    UIView *toView = [transitionContext viewForKey:UITransitionContextToViewKey];
     
     NSLog(@"From Frame: %@", NSStringFromCGRect(fromView.frame));
     NSLog(@"TO Frame: %@", NSStringFromCGRect(toView.frame));
