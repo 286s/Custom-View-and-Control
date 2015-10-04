@@ -4,7 +4,7 @@ This is a Library for custom view and controls, which will the app look more fan
 
 ## Directory
 
-- [HeartShape]((https://github.com/286s/Custom-View-and-Control/blob/master/HeartShape/HeartShapeREADME.md)): The custom heart shape view.
+- [HeartShape](https://github.com/286s/Custom-View-and-Control/blob/master/HeartShape/HeartShapeREADME.md): The custom heart shape view.
 - [SPWaterProgressIndicatorView](https://github.com/286s/Custom-View-and-Control/blob/master/SPWaterProgressIndicatorView/SPWaterProgressIndicatorView_README.md): 
 - [Custom UIViewController Transition]():
 - [SignalView]():
