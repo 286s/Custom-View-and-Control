@@ -31,4 +31,4 @@ detailViewController.modalPresentationStyle = UIModalPresentationCustom;
 ## List of Custom Transition:
 - CustomFoldTransitions
 - CustomNavigationTransitions
-
+- CustomMagnifiedTransition
